@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char message[] = "Hello, World!";
+    int length;
+
+    // Get the length of the string
+    length = strlen(message);
+
+    printf("The string is: %s\n", message);
+    printf("The length of the string is: %d\n", length);
+
+}

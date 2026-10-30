@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char firstName[50] = "Shravani ";
+    char lastName[] = "Surve";
+
+    // Combine lastName into firstName
+    strcat(firstName, lastName);
+
+    printf("Full Name: %s\n", firstName);
+
+ 
+}

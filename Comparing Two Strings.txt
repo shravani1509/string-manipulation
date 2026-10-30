@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char password[] = "Secret123";
+    char input[] = "Secret123";
+
+    // Compare the two strings
+    if (strcmp(password, input) == 0) {
+        printf("Access granted! The strings match.\n");
+    } else {
+        printf("Access denied! The strings do not match.\n");
+    }
+
+}
